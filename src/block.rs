@@ -1,5 +1,7 @@
 use {
-    super::{difficulty_bytes_as_u128, u128_bytes, u32_bytes, u64_bytes, BlockHash, Hashable},
+    super::{
+        difficulty_bytes_as_u128, hashable::Hashable, u128_bytes, u32_bytes, u64_bytes, BlockHash,
+    },
     std::fmt::{self, Debug, Formatter},
 };
 
